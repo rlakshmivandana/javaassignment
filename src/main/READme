@@ -1,0 +1,30 @@
+Weather API ::
+
+Prerequisites:::
+Database schema name: demo
+Database : MySQL
+Change username and password in application.properties.
+
+API URL:
+http://localhost:8080/weather/forecast/{city}
+
+Example:
+http://localhost:8080/weather/forecast/hyderabad
+
+Store the data in weatherInfo table. Saved few fields fetching from reponse json object
+
+Palindrome API:::
+http://localhost:8080/palindrome/input/{string}
+
+Example:
+http://localhost:8080/palindrome/input/weataew
+
+
+String REverse API:::
+
+http://localhost:8080/reverse/input/{string}
+
+Example:
+http://localhost:8080/reverse/input/hello
+
+
